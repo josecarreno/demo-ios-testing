@@ -20,6 +20,7 @@
 		F302D1C522B16BF700D3B07D /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D1C422B16BF700D3B07D /* Worker.swift */; };
 		F302D1C722B2953A00D3B07D /* PromiseKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D1C622B2953A00D3B07D /* PromiseKitTests.swift */; };
 		F302D1C922B2983A00D3B07D /* PromiseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D1C822B2983A00D3B07D /* PromiseWorker.swift */; };
+		F302D1D522B2FCE600D3B07D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302D1D422B2FCE600D3B07D /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		F302D1C422B16BF700D3B07D /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 		F302D1C622B2953A00D3B07D /* PromiseKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseKitTests.swift; sourceTree = "<group>"; };
 		F302D1C822B2983A00D3B07D /* PromiseWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseWorker.swift; sourceTree = "<group>"; };
+		F302D1D422B2FCE600D3B07D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,8 @@
 		F302D18D22B167CC00D3B07D /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				F302D1D322B2FC8A00D3B07D /* Promises */,
+				F302D1D222B2FC7A00D3B07D /* Bindings */,
 				F302D18E22B167CC00D3B07D /* AppDelegate.swift */,
 				F302D19022B167CC00D3B07D /* ViewController.swift */,
 				F302D19222B167CC00D3B07D /* Main.storyboard */,
@@ -150,7 +154,6 @@
 				F302D19722B167CE00D3B07D /* LaunchScreen.storyboard */,
 				F302D19A22B167CE00D3B07D /* Info.plist */,
 				F302D1C422B16BF700D3B07D /* Worker.swift */,
-				F302D1C822B2983A00D3B07D /* PromiseWorker.swift */,
 			);
 			path = DemoApp;
 			sourceTree = "<group>";
@@ -172,6 +175,22 @@
 				F302D1B022B167CF00D3B07D /* Info.plist */,
 			);
 			path = DemoAppUITests;
+			sourceTree = "<group>";
+		};
+		F302D1D222B2FC7A00D3B07D /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				F302D1D422B2FCE600D3B07D /* Observable.swift */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
+		F302D1D322B2FC8A00D3B07D /* Promises */ = {
+			isa = PBXGroup;
+			children = (
+				F302D1C822B2983A00D3B07D /* PromiseWorker.swift */,
+			);
+			path = Promises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F302D19122B167CC00D3B07D /* ViewController.swift in Sources */,
+				F302D1D522B2FCE600D3B07D /* Observable.swift in Sources */,
 				F302D1C522B16BF700D3B07D /* Worker.swift in Sources */,
 				F302D18F22B167CC00D3B07D /* AppDelegate.swift in Sources */,
 				F302D1C922B2983A00D3B07D /* PromiseWorker.swift in Sources */,
